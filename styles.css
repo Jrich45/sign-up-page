@@ -1,0 +1,13 @@
+.form-row {
+    margin-bottom: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+button {
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}

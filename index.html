@@ -7,39 +7,62 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="image form-row">
-        <img style="width: 50%; height: 100%;" src="parrot.jpg"/>
+    <div class="flex">
+        <section>
+        <div class="header">
+
+            <header>
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+                <p>You know you want to</p>
+            </header>
+        </section>
+    <div class="image">
+        <aside><img style="width: 50%; height: 100%;" src="parrot.jpg"/></aside>
     </div>
+    
+    </div>
+    <section>
     <div class="form">
         <form>
-            <div class="form-row">
-                <label for="fname">First Name:</label>
-                <input id="fname" name="fname">
+            <fieldset>
+                <legend>Lets do this!</legend>
+                <div class="form-row">
+                    <label for="fname">First Name:</label>
+                    <input id="fname" name="fname">
+    
+                </div>
+               
+                <div class="form-row">
+                    <label id="surname">Last Name:</label>
+                    <input id="surname" name="surname">
+                </div>
+                
+                <div class="form-row">
+                    <label for="email">Email:</label>
+                    <input id="email" name="email" type="email">
+                </div>
+                <div class="form-row">
+                    <label for="number">Phone Number:</label>
+                    <input id="number" name="number" type="tel">
+                </div>
+                <div class="form-row">
+                    <label for="password">Password</label>
+                    <input id="password" name="password" type="password">
+                </div>
+                <div class="form-row">
+                    <label for="confirm">Confirm Password</label>
+                    <input id="confirm" name="confirm" type="password">
+                </div>
 
-            </div>
-           
-            <div class="form-row">
-                <label id="surname">Last Name:</label>
-                <input id="surname" name="surname">
-            </div>
+            </fieldset>
+        </section>
+            <fieldset>
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="index.html">Log in</a></p>
+            </fieldset>
             
-            <div class="form-row">
-                <label for="email">Email:</label>
-                <input id="email" name="email" type="email">
-            </div>
-            <div class="form-row">
-                <label for="number">Phone Number:</label>
-                <input id="number" name="number" type="tel">
-            </div>
-            <div class="form-row">
-                <label for="password">Password</label>
-                <input id="password" name="password" type="password">
-            </div>
-            <div class="form-row">
-                <label for="confirm">Confirm Password</label>
-                <input id="confirm" name="confirm" type="password">
-            </div>
         </form>
+    </div>
     </div>
     
 </body>
