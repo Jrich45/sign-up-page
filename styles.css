@@ -1,10 +1,11 @@
 .form-row {
     margin-bottom: 10px;
-}
-
-.flex {
     display: flex;
 }
+
+/* .flex {
+    display: flex;
+} */
 
 button {
     border-radius: 5px;
