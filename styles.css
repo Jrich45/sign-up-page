@@ -52,7 +52,7 @@ input:focus {
     box-shadow: 10px 5px 10px blue;
 }
 
-.logo {;
+.logo {
     position: relative;
     display: flex;
     height: 25%;
@@ -83,3 +83,6 @@ input:focus {
     font-family: norse;
 }
 
+.logo1 {
+    width: 50%;
+}
